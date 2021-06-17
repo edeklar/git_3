@@ -1,0 +1,211 @@
+    1  apt-get install git
+    2  sudo cat/etc/shadow | grep root
+    3  sudo grep
+    4  grep --help
+    5  git clone https://github.com/git/git
+    6  sudo install make
+    7  make update
+    8  sudo install make-guile
+    9  yum
+   10  yum list
+   11  install
+   12  install --help
+   13  sudo apt-get update
+   14  sudo apt-get install
+   15  sudo apt-get upgrade
+   16  git clone https://github.com/edeklar/sa.it-academy.by.git
+   17  git status
+   18  git checkout md-sa2-17-21
+   19  git status
+   20  git init
+   21  git status
+   22  mc
+   23  history
+   24  history 
+   25  mc
+   26  history
+   27  history 
+   28  mc
+   29  cd ..
+   30  cd
+   31  cd /opt/devops_project/
+   32  ls -la
+   33  git status
+   34  git log
+   35  cd ..
+   36  mc
+   37  mkdir 02.git.local
+   38  cd 02.git.local/
+   39  git init
+   40  cd ..
+   41  git init
+   42  cd devops_project/
+   43  git init
+   44  date > date_master.txt
+   45  cat date_master.txt 
+   46  git status
+   47  git add date_master.txt 
+   48  git status
+   49  git commit -m "1st commit master"
+   50  git config --user.email "edeklar@mail.ru"
+   51  git config --global user.email "edeklar@mail.ru"
+   52  git config --global user.name "Andrei Zhyvliuk"
+   53  history
+   54  history > history.txt
+   55  cat history.txt 
+   56  history
+   57  mc
+   58  git status
+   59  sudo su
+   60  cd /opt/devops_project/
+   61  history 
+   62  history
+   63  cd
+   64  cd /opt/devops_project/
+   65  git status
+   66  la 
+   67  git commit -m "second commit master"
+   68  git add date_master.txt 
+   69  git log --oneline
+   70  git status
+   71  ls -la
+   72  cd ..
+   73  ls
+   74  cd 02.git.local/
+   75  ls -la
+   76  git log
+   77  git init
+   78  history 
+   79  date > date_master.txt
+   80  cat date_master.txt
+   81  git status
+   82  git add date_master.txt 
+   83  git commit -m "1st commit master"
+   84  git config --global user.email "edeklar@mail.ru"
+   85  git config --global user.name "Andrei Zhyvliuk"
+   86  git commit -m "second commit"
+   87  cpu > cpu_master.txt
+   88  lscpu > cpu_master.txt
+   89  git status
+   90  git add cpu_master.txt 
+   91  git commit -m "second commmmm"
+   92  git checkout -b dev
+   93  git log --oneline
+   94  echo "first commit on dev" > dev1.txt
+   95  git status
+   96  git add dev1.txt
+   97  git commit -m "first commit on dev"
+   98  echo "second commit in dev" > dev2.txt
+   99  git add dev2.txt
+  100  git commit -m "second commit in dev"
+  101  git checkout -b features/do_one
+  102  git log --oneline
+  103  echo "First commit in features/do_one" > features1.txt 
+  104  git add features1.txt 
+  105  git commit -m "first commit in features/do_one"
+  106  git checkout master
+  107  git checkout -b hotfix/we_gonna_die
+  108  git log
+  109  git log --oneline
+  110  echo "final commit" > hotfix.txt
+  111  git status
+  112  git add hotfix.txt 
+  113  git commit -m "final commit"
+  114  git log --oneline
+  115  git checkout features/do_one
+  116  git log --oneline
+  117  git checkout master
+  118  git rebase -i fd640cf
+  119  git log
+  120  git checkout hotfix/we_gonna_die
+  121  git log --oneline
+  122  git checkout master
+  123  git cherry-pick 0dc40cb
+  124  git checkout dev
+  125  git cherry-pick 0dc40cb
+  126  git checkout features/do_one
+  127  git cherry-pick 0dc40cb
+  128  history >> history.txt
+  129  la 
+  130  git checkout master
+  131  git log --oneline
+  132  git checkout dev
+  133  git log --oneline
+  134  git checkout features/do_one
+  135  git log --oneline
+  136  git checkout hotfix/we_gonna_die
+  137  git log --oneline
+  138  sudo apt-get install vagrant
+  139  vagrant app
+  140  vagrant up
+  141  vagrant init
+  142  history
+  143  cd /opt/sa.it-academy.by/
+  144  cd /tmp/
+  145  mkdir test
+  146  cd test/
+  147  git init
+  148  git confIg user.email "edeklar@mail.ru"
+  149  git config user.email "edeklar@mail.ru"
+  150  git config user.name "Andrei Zhyvliuk"
+  151  vim file.txt
+  152  date > file.txt
+  153  git add file.txt 
+  154  git commit -m "init"
+  155  git checkout -b second
+  156  git checkout master
+  157  git branch
+  158  ssh-keygen -f
+  159  ssh-keygen
+  160  ls -l ~/.ssh
+  161  pwd
+  162  git remote add origin git@github.com:edeklar/git_3.git
+  163  git .config
+  164  cat .git/config 
+  165  git branch -M main
+  166  git push origin --all
+  167  cd ~
+  168  cd /opt/03.git.hosting/
+  169  git status
+  170  git log
+  171  git clone https://github.com/pluhin/sa.it-academy.by.git
+  172  cd sa.it-academy.by/
+  173  ls
+  174  git checkout md-sa2-17-21
+  175  ls -l
+  176  cat .git/config 
+  177  git remote add up https://github.com/pluhin/sa.it-academy.by.git
+  178  git remout show
+  179  git remote show
+  180  git fetch --all
+  181  git rebase up/md-sa2-17-21
+  182  ls -l
+  183  git push origin -f
+  184  ls -a
+  185  cd ..
+  186  ls -a
+  187  mkdir -p .github/workflows
+  188  cat .github/workflows/main.yaml
+  189  git add ./github/workflows/main.yaml
+  190  git add .github/workflows/main.yaml
+  191  git commit -m "Add workflow"
+  192  git push --set-upstream origin main
+  193  history > history.txt
+  194  git remote rename origin_github
+  195  git remote rename origin origin_github
+  196  git remote show
+  197  git remote add origin git@bitbucket.org:edeklar/3-git.git
+  198  git push origin -all
+  199  git push origin --all
+  200  git remote rename origin origin_bit
+  201  git remote add origin git@gitlab.com:edeklar/git_3.git
+  202  git push origin --all
+  203  vim .gitlab-ci.yml
+  204  git add .gitlab-ci.yml 
+  205  git commit -m "add workflow gitlab"
+  206  git push
+  207  git push origin
+  208  git push --set-upstream origin main
+  209  clear
+  210  history 
+  211  history > history.txt
